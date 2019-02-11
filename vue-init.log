@@ -1,0 +1,517 @@
+    1  dir
+    2  ls
+    3  pip install virtualenv
+    4  pwd
+    5  ll
+    6  pwd
+    7  ll
+    8  pip install virtualenv
+    9  pwd
+   10  virtualenv venv
+   11  pwd
+   12  cd /venv/Scripts/
+   13  cd venv/Scripts/
+   14  ll
+   15  activate.bat
+   16  activeate.bat
+   17  activate.bat
+   18  pwd
+   19  ll
+   20  activate.bat
+   21  ./activate.bat
+   22  pwd
+   23  ls
+   24  pwd
+   25  cd ..
+   26  cd ..
+   27  ll
+   28  ./venv/Scripts/activate.bat
+   29  pwd
+   30  ls
+   31  pwd
+   32  ll
+   33  cd venv/
+   34  ll
+   35  cd ..
+   36  ll
+   37  cd ..
+   38  ll
+   39  cd odoo8
+   40  ll
+   41  cat requirements.txt 
+   42  source ./venv/Scripts/activate
+   43  ll
+   44  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   45  easy_install psycopg2-2.6.2.win32-py2.7-pg9.5.3-release.exe
+   46  easy_install psycopg2-2.6.2.win32-py2.7-pg9.5.3-release.exeF:\software\Odoo-Python-Postgree-Git-NodeJS\Odoo 部署\ODOO-8\psycopg
+   47  easy_install F:\software\Odoo-Python-Postgree-Git-NodeJS\Odoo 部署\ODOO-8\psycopg
+   48  easy_install F:\software\Odoo-Python-Postgree-Git-NodeJS\Odoo 部署\ODOO-8\psycopg\psycopg2-2.6.2.win32-py2.7-pg9.5.3-release.exe
+   49  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe
+   50  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   51  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   52  easy_install gevent-1.2.1.win32-py2.7.exe
+   53  easy_install gevent-1.2.1.win32-py2.7.exe
+   54  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe
+   55  easy_install gevent-1.2.1.win32-py2.7.exe 
+   56  easy_install gevent-1.2.1.win32-py2.7.exe 
+   57  easy_install greenlet-0.4.12-cp27-cp27m-win32.whl 
+   58  pip install greenlet-0.4.12-cp27-cp27m-win32.whl 
+   59  easy_install gevent-1.2.1.win32-py2.7.exe 
+   60  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   61  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe 
+   62  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   63  history 
+   64  history >> ./history_2018-07-29
+   65  ll
+   66  pip install virtualenv
+   67  virtualenv venv
+   68  source ./venv/Scripts/activate
+   69  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe 
+   70  pip install greenlet-0.4.12-cp27-cp27m-win32.whl 
+   71  easy_install gevent-1.2.1.win32-py2.7.exe 
+   72  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   73  easy_install psutil-2.1.1.win32-py2.7.exe 
+   74  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   75  pip install python_ldap-2.4.29-cp27-cp27m-win32.whl 
+   76  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   77  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   78  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   79  easy_install pywin32-219.win32-py2.7.exe 
+   80  easy_install pywin32-219.win32-py2.7.exe 
+   81  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   82  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe 
+   83  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+   84  python
+   85  python -v
+   86  pip install virtualenv
+   87  ll
+   88  virtualenv venv
+   89  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe
+   90  pip install greenlet-0.4.12-cp27-cp27m-win32.whl 
+   91  pipip install python_ldap-2.4.29-cp27-cp27m-win32.whl 
+   92  pip install python_ldap-2.4.29-cp27-cp27m-win32.whl 
+   93  easy_install gevent-1.2.1.win32-py2.7.exe 
+   94  easy_install pywin32-219.win32-py2.7.exe 
+   95  easy_install gevent-1.2.1.win32-py2.7.exe 
+   96  pip install gevent-1.3.0-cp27-cp27m-win32.whl
+   97  pwd
+   98  exit
+   99  pip install virtualenv
+  100  virtualenv venv
+  101  pwd
+  102  source ./venv/Scripts/activate
+  103  easy_install psycopg2-2.6.2.win-amd64-py2.7-pg9.5.3-release.exe 
+  104  pip install greenlet-0.4.12-cp27-cp27m-win32.whl 
+  105  pip install greenlet-0.4.12-cp27-cp27m-win32.whl 
+  106  pip install gevent-1.3.0-cp27-cp27m-win32.whl 
+  107  pip install python_ldap-2.4.29-cp27-cp27m-win32.whl 
+  108  easy_install psutil-2.1.1.win32-py2.7.exe 
+  109  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+  110  pip install psycopg2-2.7.3-cp27-cp27m-win32.whl 
+  111  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+  112  easy_install psutil-2.1.1.win32-py2.7.exe 
+  113  pip install pywin32-222-cp27-cp27m-win32.whl 
+  114  pip install -r requirements.txt -i https://pypi.doubanio.com/simple
+  115  easy_install 
+  116      import win32service as ws
+  117  ImportError: DLL load failed: 找不到指定的模块。
+  118  easy_install pywin32-221.win32-py2.7.exe
+  119  history
+  120  git clone https://github.com/lbk0116/nantian_erp.git
+  121  cd ..
+  122  source ./venv/Scripts/activate
+  123  pip install docx-0.2.4-py2.py3-none-any.whl 
+  124  pip install docxtpl-0.4.13-py2-none-any.whl
+  125  cd myaddons/
+  126  ll
+  127  git clone 
+  128  Successfully installed docxtpl-0.4.13 python-docx-0.8.6
+  129  git clone https://github.com/isunnyboy/assets_manage
+  130  npm install thunkify
+  131  npm i thunks
+  132  pwd
+  133  pwd
+  134  npm install webpack
+  135  vue -v
+  136  webpack 
+  137  npm install --gloabl wepack
+  138  node -v
+  139  $ npm install -g cnpm --registry=https://registry.npm.taobao.org
+  140  npm install -g cnpm --registry=https://registry.npm.taobao.org
+  141  echo '\n#alias for cnpm\nalias cnpm="npm --registry=https://registry.npm.taobao.org \
+  142    --cache=$HOME/.npm/.cache/cnpm \
+  143    --disturl=https://npm.taobao.org/dist \
+  144    --userconfig=$HOME/.cnpmrc"' >> ~/.zshrc && source ~/.zshrc
+  145  echo '\n#alias for cnpm\nalias cnpm="npm --registry=https://registry.npm.taobao.org \
+  146    --cache=$HOME/.npm/.cache/cnpm \
+  147    --disturl=https://npm.taobao.org/dist \
+  148    --userconfig=$HOME/.cnpmrc"' >> ~/.zshrc && source ~/.zshrc
+  149  alias cnpm="npm --registry=https://registry.npm.taobao.org \
+  150  --cache=$HOME/.npm/.cache/cnpm \
+  151  --disturl=https://npm.taobao.org/dist \
+  152  --userconfig=$HOME/.cnpmrc"
+  153  cat ~/.zshrc
+  154  cat ~/.zshrc
+  155  cat ~/.zshrc
+  156  cat ~
+  157  vm ~/.zshrc
+  158  vim ~/.zshrc
+  159  npm -info
+  160  npm --info
+  161  cat ~/.zshrc 
+  162  cat ~/.zshrc 
+  163  echo '\n#alias for cnpm\nalias cnpm="npm --registry=https://registry.npm.taobao.org \
+  164    --cache=$HOME/.npm/.cache/cnpm \
+  165    --disturl=https://npm.taobao.org/dist \
+  166  echo '\n#alias for cnpm\nalias cnpm="npm --registry=https://registry.npm.taobao.org \
+  167  --cache=$HOME/.npm/.cache/cnpm \
+  168  --disturl=https://npm.taobao.org/dist \
+  169  --userconfig=$HOME/.cnpmrc"' >> ~/.zshrc && source ~/.zshrc
+  170  alias
+  171  npm install -g webpack
+  172  cnpm install -g webpack
+  173  webapck
+  174  webpack
+  175  pwd
+  176  npm install webpack webpack-cli --save-dev
+  177  node -v
+  178  console.log("Hello World");
+  179  node helloworld.js 
+  180  node
+  181  path
+  182  cd firstProject/
+  183  ll
+  184  node server.js 
+  185  node server.js 
+  186  node ThunkRun.js 
+  187  npm install thunkify
+  188  node ThunkRun.js 
+  189  node ThunkRun.js 
+  190  npm run build
+  191  npm run build
+  192  npm run build
+  193  history
+  194  npm install --save-dev fs
+  195  npm run build
+  196  npm install --save-dev fs
+  197  npm run build
+  198  npm run build
+  199  npm run build
+  200  npm run build
+  201  npm run build
+  202  node server.js
+  203  node server.js
+  204  npm run build
+  205  npm run build
+  206  npm run build
+  207  npm run build
+  208  npm run b
+  209  npm install --save-dev require
+  210  npm run build
+  211  npm run build
+  212  npm run build
+  213  cnpm run build
+  214  npm install whatwg-fetch
+  215  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法.js 
+  216  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法.js 
+  217  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法.js 
+  218  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法.js 
+  219  npm install whatwg-fetch
+  220  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法.js 
+  221  pwd
+  222  node 18-7.异步遍历器_1-2-5_for\ await...of____Node\ v10\ 支持异步遍历器.js 
+  223  clear
+  224  node 18-7.异步遍历器_1-2-6_for\ await...of____Node\ v10\ 支持异步遍历器-异步遍历器写法.js 
+  225  node -v
+  226  node -v
+  227  node 18-7.异步遍历器_1-2-6_for\ await...of____Node\ v10\ 支持异步遍历器-异步遍历器写法.js 
+  228  node 18-7.异步遍历器_1-2-5_for\ await...of____Node\ v10\ 支持异步遍历器.js 
+  229  node 18-7.异步遍历器_1-2-5_for\ await...of____Node\ v10\ 支持异步遍历器-传统写法.js 
+  230  node 18-7.异步遍历器_1-2-6_for\ await...of____Node\ v10\ 支持异步遍历器-异步遍历器写法.js 
+  231  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  232  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  233  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  234  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  235  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  236  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  237  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法.js 
+  238  node 18-7.异步遍历器_1-2-5_for\ await...of____Node\ v10\ 支持异步遍历器-传统写法【重点】.js 
+  239  node 18-7.异步遍历器_1-2-6_for\ await...of____Node\ v10\ 支持异步遍历器-异步遍历器写法【重点】.js 
+  240  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  241  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  242  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  243  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  244  node 18-7.异步遍历器_1-3-5_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  245  node 18-7.异步遍历器_1-3-5-2_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用【for\ await\ of】.js 
+  246  node 18-7.异步遍历器_1-3-5-2_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用【for\ await\ of】.js 
+  247  node 18-7.异步遍历器_1-3-5-1_异步\ Generator\ 函数____异步\ Generator\ 函数可以与for\ await...of循环结合起来使用.js 
+  248  node 18-7.异步遍历器_1-3-6_异步\ Generator\ 函数____异步\ Generator\ 函数的返回值是一个异步\ Iterator.js 
+  249  node 18-7.异步遍历器_1-3-6_异步\ Generator\ 函数____异步\ Generator\ 函数的返回值是一个异步\ Iterator.js 
+  250  node -v
+  251  node -v
+  252  node 18-7.异步遍历器_1-3-6_异步\ Generator\ 函数____异步\ Generator\ 函数的返回值是一个异步\ Iterator.js 
+  253  node 18-7.异步遍历器_1-3-6_异步\ Generator\ 函数____异步\ Generator\ 函数的返回值是一个异步\ Iterator.js 
+  254  node 18-7.异步遍历器_1-3-6_异步\ Generator\ 函数____异步\ Generator\ 函数的返回值是一个异步\ Iterator.js 
+  255  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法【无法运行-？？】.js 
+  256  pwd
+  257  npm install whatwg-fetch
+  258  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法【无法运行-？？】.js 
+  259  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法【无法运行-？？】.js 
+  260  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法【无法运行-？？】.js 
+  261  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法【无法运行-？？】.js 
+  262  node 18-6.按顺序完成异步操作_1-1-1_Promise\ 的写法【无法运行-？？】.js 
+  263  node -v
+  264  npm install -g vue-cli
+  265  npm run dev
+  266  cnpm install
+  267  npm install core-decorators
+  268  node 21-4.core-decorators_1_1_1.js 
+  269  pwd
+  270  cd ..
+  271  ll
+  272  cd 22-Module\ 的语法/
+  273  ll
+  274  node main.js 
+  275  node main.js 
+  276  node main.js 
+  277  node main.js 
+  278  node module2.js 
+  279  node module2.js 
+  280  node module2.js 
+  281  node module2.js 
+  282  node -v
+  283  node --experimental-modules main.js 
+  284  node --experimental-modules myMain.js 
+  285  cd ..
+  286  ll
+  287  cd 18-async函数/
+  288  ll
+  289  node 18-1.含义_1_1-1_Generator+Promise.js 
+  290  node 18-1.含义_1_1-1_Generator+Promise.js 
+  291  node 18-1.含义_1_1-1_Generator+Promise.js 
+  292  node 18-1.含义_1_1-2_Async+Promise【重点-重点-重点-异步后执行】.js 
+  293  cd ..
+  294  ll
+  295  cd testWebpack/
+  296  ll
+  297  node install fs
+  298  npm install fs
+  299  node sync.js 
+  300  node sync.js 
+  301  node sync.js 
+  302  node sync.js 
+  303  node sync.js 
+  304  node sync.js 
+  305  node sync.js 
+  306  node sync.js 
+  307  node sync.js 
+  308  node sync.js 
+  309  node sync.js 
+  310  node sync.js 
+  311  node sync.js 
+  312  node sync.js 
+  313  node sync.js 
+  314  node sync.js 
+  315  node sync.js 
+  316  node sync.js 
+  317  node sync.js 
+  318  node sync.js 
+  319  pwd
+  320  node nextTick_1.js 
+  321  node nextTick_2.js 
+  322  node nextTick_2.js 
+  323  node nextTick_3.js 
+  324  node nextTick_3.js
+  325  node nextTick_4
+  326  node nextTick_4
+  327  node timeout_vs_immediate_1.js 
+  328  node timeout_vs_immediate_2.js 
+  329  node timeout_process_immediate.js 
+  330  node timeout_process_immediate.js 
+  331  cd Async/
+  332  ll
+  333  node setTimeout.js 
+  334  node setImmediate.js 
+  335  node requestAnimationFrame.js 
+  336  pwd
+  337  ll
+  338  cd ..
+  339  cd ..
+  340  ll
+  341  cd ..
+  342  ll
+  343  cd ..
+  344  ll
+  345  cd Vue-cl/
+  346  ll
+  347  cd vue-cl2.0/
+  348  ll
+  349  cd vueProject/
+  350  ll
+  351  npm run build
+  352  ll
+  353  vue
+  354  vue list
+  355  vue init webpack vueProject
+  356  cnpm install
+  357  cd vueProject/
+  358  ll
+  359  cd ..
+  360  ll
+  361  cd vueProject/
+  362  ll
+  363  cnpm install 
+  364  npm run dev
+  365  npm run dev
+  366  git clone https://github.com/vuejs/vue-router
+  367  dir
+  368  cd vue-router/
+  369  ll
+  370  cd examples/
+  371  ll
+  372  cd route-props/
+  373  ll
+  374  cmd
+  375  node 21-4.core-decorators_1_1_1.js 
+  376  node 21-4.core-decorators_1_1_1.js 
+  377  node 21-1.方法的修饰_1_1-1.js 
+  378  npm i --save-dev babel-plugin-transform-decorators-legacy
+  379  node 21-1.方法的修饰_1_1-1.js 
+  380  node 21-1.方法的修饰_1_1-1.js 
+  381  npm 21-1.方法的修饰_1_1-1.js 
+  382  node 21-1.方法的修饰_1_1-1.js 
+  383  npm 
+  384  npm i --save-dev babel-plugin-transform-decorators-legacy
+  385  npm i --save-dev babel-plugin-transform-decorators-legacy
+  386  vue list
+  387  cd ..
+  388  vue init webpack-simple pizza-example
+  389  cd pizza-example/
+  390  ll
+  391  cnpm install
+  392  cnpm install 
+  393  cnpm npm install vue-router --save
+  394  cnpm install vue-router --save
+  395  cnpm install vuex --save
+  396  cnpm install axios --save
+  397  cnpm run dev
+  398  y
+  399  node app.txt 
+  400  cnpm install cookie
+  401  cnpm install vary
+  402  cnpm install bytes
+  403  cnpm install iconv-lite
+  404  npm init
+  405  git status
+  406  git init
+  407  git status
+  408  git add temp.js
+  409  git status
+  410  git add *o
+  411  git add *oI
+  412  git add *o*
+  413  git status
+  414  git add *.json
+  415  git add .
+  416  git status
+  417  git init
+  418  git add .
+  419  ll
+  420  ls
+  421  ll
+  422  touch index.html
+  423  vim index.html 
+  424  ll
+  425  git init
+  426  git commit -m "blog-app"
+  427  git remote add origin https://github.com/iisunnyboy/blog-app.git 
+  428  git push -u origin master
+  429  git push -u origin master
+  430  ll
+  431  ls -a
+  432  history
+  433  git init
+  434  git remote add origin https://github.com/iisunnyboy/blog-app.git
+  435  git push -u origin master
+  436  git clone https://github.com/iisunnyboy/blog-app.git
+  437  ll
+  438  ll -a
+  439  pwd
+  440  ll
+  441  git init 
+  442  git add log.txt
+  443  touch log.txt
+  444  git add . -m "log.txt add"
+  445  git add * -m "log.txt add"
+  446  git add -m "log.txt add"
+  447  git status
+  448  git add log.txt 
+  449  git commit -m "commit log.txt"
+  450  git remote add origin https://github.com/iisunnyboy/blog-app.git
+  451  git push -u origin master
+  452  git push -u origin master
+  453  git push -u origin master -f
+  454  vue -v
+  455  vue --version
+  456  vue --help
+  457  vue init --help
+  458  cd ..
+  459  ll
+  460  vue init webpack blog-app
+  461  history  >> ./vue-init.log
+
+ 
+$ vue init webpack blog-app
+
+? Target directory exists. Continue? (Y/n) y
+? Target directory exists. Continue? Yes
+? Project name (blog-app)
+? Project name blog-app
+? Project description (A Vue.js project)
+? Project description A Vue.js project
+? Author (iisunnyboy <907293635@QQ.com>)
+? Author iisunnyboy <907293635@QQ.com>
+? Vue build standalone
+? Install vue-router? (Y/n) y
+? Install vue-router? Yes
+? Use ESLint to lint your code? (Y/n) n
+? Use ESLint to lint your code? No
+? Set up unit tests (Y/n) n
+? Set up unit tests No
+? Setup e2e tests with Nightwatch? (Y/n) n
+? Setup e2e tests with Nightwatch? No
+? Should we run `npm install` for you after the project has been created? (recom
+? Should we run `npm install` for you after the project has been created? (recom
+mended) npm
+
+   vue-cli · Generated "blog-app".
+
+
+# Installing project dependencies ...
+# ========================
+
+npm WARN deprecated browserslist@2.11.3: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+npm WARN deprecated bfj-node4@5.3.1: Switch to the `bfj` package for fixes and new features!
+npm WARN deprecated browserslist@1.7.7: Browserslist 2 could fail on reading Browserslist >3.0 config used in other tools.
+
+> uglifyjs-webpack-plugin@0.4.6 postinstall F:\VueLearningWorkSpace\Vue-cl\vu2.x-PC\blog-app\node_modules\webpack\node_modules\uglifyjs-webpack-plugin
+> node lib/post_install.js
+
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN ajv-keywords@3.4.0 requires a peer of ajv@^6.9.1 but none is installed. You must install peer dependencies yourself.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.7 (node_modules\fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.7: wanted {"os":"darwin","arch":"any"} (current: {"os":"win32","arch":"x64"})
+
+added 1128 packages from 651 contributors and audited 10652 packages in 321.035s
+found 2 vulnerabilities (1 moderate, 1 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+
+# Project initialization finished!
+# ========================
+
+To get started:
+
+  cd blog-app
+  npm run dev
+
+Documentation can be found at https://vuejs-templates.github.io/webpack
