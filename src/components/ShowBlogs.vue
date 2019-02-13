@@ -7,9 +7,12 @@
         <input type="text" v-model="search">
         <!-- <div v-for="(blog,index) in blogs" :key="index" class="single-blog"> -->
         <div v-for="(blog,index) in filterBlogs" :key="index" class="single-blog">
-            <h2 v-rainbow>{{blog.title | to-uppercase}}</h2>
+            <router-link :to="'/blog/'+blog.id">
+                <h2 v-rainbow>{{blog.title | to-uppercase}}</h2>
+            </router-link>
+
             <article>
-                {{blog.body | snippet}}
+                {{blog.content | snippet}}
             </article>
         </div>
     </div>
@@ -60,12 +63,25 @@ export default {
         }
     },
     created(){
-        // this.$http.get("http://jsonplaceholder.typicode.com/posts")
-        this.$http.get("../../static/posts.json")
+        // this.$http.get("http://jsonplaceholder.typicode.com/posts")  //jsonplaceholder
+        // this.$http.get("../../static/posts.json")                       //Local
+        this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // 野狗云
             .then(data => {
                 console.log(data);
-                this.blogs = data.body.slice(0,10);
-                console.log(this.blogs);
+                return data.json();
+                // this.blogs = data.body.slice(0,10);
+                // console.log(this.blogs);
+            })
+            .then(data=>{
+                console.log(data)
+                let blogArray = [];
+                for(let key in data){
+                    data[key].id = key;
+                    blogArray.push(data[key]);
+                }
+                this.blogs = blogArray
+                console.log(this.blogs)
+                // return blogArray
             })
     }
 }
@@ -76,13 +92,22 @@ export default {
     margin: 0 auto;
     max-width: 800px;
 }
+
+.show-blogs a{
+    color: #444;
+    text-decoration: none;
+}
+
 h1{
     margin: 20px;
 }
 
 input[type="text"]{
+    box-sizing: border-box;
     display: block;
+    width: 100%;
     margin: 20px;
+    padding: 8px;
 }
 
 .single-blog{
