@@ -13,6 +13,10 @@
             </li>
         </ul>
         <p>作者：{{blog.author}}</p>
+        <div>
+            <button @click="deleteBlog()">删除博客</button>
+            <router-link :to="'/edit/'+ id">编辑博客</router-link>
+        </div>
     </div>
 </template>
 
@@ -25,6 +29,15 @@ export default {
             blog:{}
         }
     },
+    methods: {
+        deleteBlog(){
+            this.$http.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //野狗云
+                .then(response=>{
+                    // console.log(response);
+                    this.$router.push({path:"/"})
+                })
+        }
+    },
     created(){
         // this.$http.get("http://jsonplaceholder.typicode.com/posts/"+this.id)    //jsonplaceholder
         // this.$http.get("../../static/posts/"+this.id)
@@ -35,7 +48,7 @@ export default {
                 return data.json()
             })
             .then(data=>{
-                console.log(data)
+                // console.log(data)
                 this.blog = data
             })
     }

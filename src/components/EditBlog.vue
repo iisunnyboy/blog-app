@@ -1,27 +1,22 @@
 <template>
     <div class="add-blog">
-        <h2>添加博客</h2>
+        <h2>编辑博客</h2>
         <form v-if="!submmited">
             <label for="title" >博客标题</label>
             <input type="text" id="title" v-model="blog.title"> 
             <label>博客内容</label>
             <textarea v-model="blog.content"></textarea>
-            <div id="checkboxes">
-                <label for="Vue">Vue.js</label>
-                <input type="checkbox" value="Vue.js" v-model="blog.categories" id="Vue">
-                <label for="Node">Node.js</label>
-                <input type="checkbox" value="Node.js" v-model="blog.categories" id="Node">
-                <label for="React">React.js</label>
-                <input type="checkbox" value="React.js" v-model="blog.categories" id="React">
-                <label for="Angular4">Angular4.js</label>
-                <input type="checkbox" value="Angular4" v-model="blog.categories" id="Angular4">
-
-            </div>
+            <ul>
+                <li v-for="(category,index) in allCategories" :key="index">
+                    <label for="category">{{category}}</label>
+                    <input type="checkbox" :value="category" :id="category" v-model="blog.categories">
+                </li>
+            </ul>
             <label for="authors">作者</label>
             <select id="authors" v-model="blog.author">
                 <option v-for="author in authors" :key="author">{{author}}</option>
             </select>
-            <button @click.prevent="post">添加博客</button>
+            <button @click.prevent="post">保存博客</button>
         </form>
 
         <hr>
@@ -43,30 +38,41 @@
 </template>
 
 <script>
-import axios from 
 export default {
     name : "add-blog",
     data : function(){
         return {
-            blog : {
-                title : "",
-                content : "",
-                categories : [],
-                author : ""
-            },
+            id: this.$route.params.id,
+            blog : {},
             authors : ["Herry","Bucky","Hemiah"],
-            submmited : false
+            submmited : false,
+            allCategories:[
+                "Vue.js","Node.js","React.js","Angolar4"
+            ]
         }
     },
     methods : {
         post(){
             // this.$http.post("http://jsonplaceholder.typicode.com/posts",{    //jsonplaceholder
-            this.$http.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //野狗云
+            this.$http.put("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json",this.blog)    //野狗云
                 .then( data => {
                     console.log(data)
                     this.submmited = true
                 })
         }
+    },
+    created(){
+        this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")
+            .then(response => {
+                // console.log("A:",response.body)
+                // return response.body
+                return response.json()
+                // this.blog = response.body
+            })
+            .then(response => {
+                // console.log(response)
+                this.blog = response
+            })
     }
 }
 </script>
@@ -124,6 +130,13 @@ button{
 }
 h3{
     margin-top: 10px;
+}
+
+li{
+    display:inline;
+}
+li label{
+    display:inline;
 }
 </style>
 
