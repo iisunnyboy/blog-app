@@ -44,7 +44,7 @@
 
 <script>
 
-// import axios from 
+import axios from "axios"
 
 export default {
     name : "add-blog",
@@ -63,9 +63,10 @@ export default {
     methods : {
         post(){
             // this.$http.post("http://jsonplaceholder.typicode.com/posts",{    //jsonplaceholder
-            this.$http.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //野狗云
+            // this.$http.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //野狗云
+            axios.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //aixos
                 .then( data => {
-                    console.log(data)
+                    // console.log(data)
                     this.submmited = true
                 })
         }

@@ -38,6 +38,8 @@
 </template>
 
 <script>
+import axios from "axios"
+
 export default {
     name : "add-blog",
     data : function(){
@@ -55,6 +57,7 @@ export default {
         post(){
             // this.$http.post("http://jsonplaceholder.typicode.com/posts",{    //jsonplaceholder
             this.$http.put("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json",this.blog)    //野狗云
+            axios.put("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json",this.blog)    //axios
                 .then( data => {
                     console.log(data)
                     this.submmited = true
@@ -62,16 +65,17 @@ export default {
         }
     },
     created(){
-        this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")
-            .then(response => {
-                // console.log("A:",response.body)
-                // return response.body
-                return response.json()
-                // this.blog = response.body
-            })
+        // this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")   //野狗云
+        axios.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")   //axios
+            // .then(response => {
+            //     // console.log("A:",response.body)
+            //     // return response.body
+            //     return response.json()
+            //     // this.blog = response.body
+            // })
             .then(response => {
                 // console.log(response)
-                this.blog = response
+                this.blog = response.data
             })
     }
 }

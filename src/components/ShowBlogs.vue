@@ -19,6 +19,8 @@
 </template>
 
 <script>
+import axios from "axios"
+
 export default {
     name: "show-blogs",
     data(){
@@ -65,15 +67,17 @@ export default {
     created(){
         // this.$http.get("http://jsonplaceholder.typicode.com/posts")  //jsonplaceholder
         // this.$http.get("../../static/posts.json")                       //Local
-        this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // 野狗云
-            .then(data => {
-                console.log(data);
-                return data.json();
-                // this.blogs = data.body.slice(0,10);
-                // console.log(this.blogs);
-            })
-            .then(data=>{
-                console.log(data)
+        // this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // 野狗云
+        axios.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // axios
+            // .then(data => {
+            //     console.log(data);
+            //     return data.json();
+            //     // this.blogs = data.body.slice(0,10);
+            //     // console.log(this.blogs);
+            // })
+            .then(response=>{
+                console.log(response)
+                let data = response.data
                 let blogArray = [];
                 for(let key in data){
                     data[key].id = key;

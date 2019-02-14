@@ -21,6 +21,8 @@
 </template>
 
 <script>
+import axios from "axios"
+
 export default {
     name: "SingleBlog",
     data(){
@@ -31,7 +33,8 @@ export default {
     },
     methods: {
         deleteBlog(){
-            this.$http.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //野狗云
+            // this.$http.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //野狗云
+            axios.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //axios
                 .then(response=>{
                     // console.log(response);
                     this.$router.push({path:"/"})
@@ -41,15 +44,16 @@ export default {
     created(){
         // this.$http.get("http://jsonplaceholder.typicode.com/posts/"+this.id)    //jsonplaceholder
         // this.$http.get("../../static/posts/"+this.id)
-        this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json") //野狗云
-            .then(data=>{
-                // this.blog = data.body
+        // this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json") //野狗云
+        axios.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json") //axios
+            // .then(data=>{
+            //     // this.blog = data.body
+            //     // console.log(data)
+            //     return data.json()
+            // })
+            .then(response=>{
                 // console.log(data)
-                return data.json()
-            })
-            .then(data=>{
-                // console.log(data)
-                this.blog = data
+                this.blog = response.data
             })
     }
 }
