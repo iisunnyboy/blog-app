@@ -19,7 +19,8 @@
 </template>
 
 <script>
-import axios from "axios"
+// import axios from "axios"
+import axios from "../axios-auth.js"   //aixos global config .js file
 
 export default {
     name: "show-blogs",
@@ -31,9 +32,14 @@ export default {
     },
     computed:{
         filterBlogs(){
-            return this.blogs.filter(blog => 
-                 { return blog.title.match(this.search)}
-            )
+            const searchedBlog =  this.blogs.filter(blog => 
+                { 
+                    return blog.title.match(this.search)
+                }
+            );
+            // console.log("1:",this.blogs);
+            // console.log("2:",searchedBlog);
+            return searchedBlog
         }
     },
     // 自定义局部过滤器
@@ -68,7 +74,8 @@ export default {
         // this.$http.get("http://jsonplaceholder.typicode.com/posts")  //jsonplaceholder
         // this.$http.get("../../static/posts.json")                       //Local
         // this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // 野狗云
-        axios.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // axios
+        // axios.get("https://wd0398465287ktocwx.wilddogio.com/posts.json")     // axios
+        axios.get("/posts.json")     // axios global config
             // .then(data => {
             //     console.log(data);
             //     return data.json();
@@ -76,7 +83,7 @@ export default {
             //     // console.log(this.blogs);
             // })
             .then(response=>{
-                console.log(response)
+                // console.log(response)
                 let data = response.data
                 let blogArray = [];
                 for(let key in data){
@@ -84,7 +91,7 @@ export default {
                     blogArray.push(data[key]);
                 }
                 this.blogs = blogArray
-                console.log(this.blogs)
+                // console.log(this.blogs)
                 // return blogArray
             })
     }

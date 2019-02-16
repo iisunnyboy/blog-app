@@ -44,7 +44,8 @@
 
 <script>
 
-import axios from "axios"
+// import axios from "axios"
+import axios from "../axios-auth.js"   //aixos global config .js file
 
 export default {
     name : "add-blog",
@@ -64,7 +65,8 @@ export default {
         post(){
             // this.$http.post("http://jsonplaceholder.typicode.com/posts",{    //jsonplaceholder
             // this.$http.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //野狗云
-            axios.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //aixos
+            // axios.post("https://wd0398465287ktocwx.wilddogio.com/posts.json",this.blog)    //aixos
+            axios.post("/posts.json",this.blog)    //aixos global config
                 .then( data => {
                     // console.log(data)
                     this.submmited = true

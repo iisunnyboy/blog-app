@@ -5,6 +5,9 @@ import App from './App'
 import router from './router'
 import VueResouce from "vue-resource"
 
+// import axios from "axios"
+// axios.defaults.baseURL= "https://wd0398465287ktocwx.wilddogio.com"
+
 Vue.config.productionTip = false
 Vue.use(VueResouce)
 

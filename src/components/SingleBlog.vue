@@ -21,7 +21,8 @@
 </template>
 
 <script>
-import axios from "axios"
+// import axios from "axios"
+import axios from "../axios-auth.js"   //aixos global config .js file
 
 export default {
     name: "SingleBlog",
@@ -34,7 +35,8 @@ export default {
     methods: {
         deleteBlog(){
             // this.$http.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //野狗云
-            axios.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //axios
+            // axios.delete("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json")  //axios
+            axios.delete("/posts/"+this.id + ".json")  //axios global config
                 .then(response=>{
                     // console.log(response);
                     this.$router.push({path:"/"})
@@ -45,7 +47,8 @@ export default {
         // this.$http.get("http://jsonplaceholder.typicode.com/posts/"+this.id)    //jsonplaceholder
         // this.$http.get("../../static/posts/"+this.id)
         // this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json") //野狗云
-        axios.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json") //axios
+        // axios.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id + ".json") //axios
+        axios.get("/posts/"+this.id + ".json") //axios global config
             // .then(data=>{
             //     // this.blog = data.body
             //     // console.log(data)

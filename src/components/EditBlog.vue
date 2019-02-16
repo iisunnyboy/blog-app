@@ -38,7 +38,8 @@
 </template>
 
 <script>
-import axios from "axios"
+// import axios from "axios"
+import axios from "../axios-auth.js"   //aixos global config .js file
 
 export default {
     name : "add-blog",
@@ -57,16 +58,18 @@ export default {
         post(){
             // this.$http.post("http://jsonplaceholder.typicode.com/posts",{    //jsonplaceholder
             this.$http.put("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json",this.blog)    //野狗云
-            axios.put("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json",this.blog)    //axios
+            // axios.put("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json",this.blog)    //axios
+            axios.put("/posts/"+this.id+".json",this.blog)    //axios global config
                 .then( data => {
-                    console.log(data)
+                    // console.log(data)
                     this.submmited = true
                 })
         }
     },
     created(){
         // this.$http.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")   //野狗云
-        axios.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")   //axios
+        // axios.get("https://wd0398465287ktocwx.wilddogio.com/posts/"+this.id+".json")   //axios
+        axios.get("/posts/"+this.id+".json")   //axios global config
             // .then(response => {
             //     // console.log("A:",response.body)
             //     // return response.body
